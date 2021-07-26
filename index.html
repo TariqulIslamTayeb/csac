@@ -14,7 +14,7 @@
 
     <header>
         <nav class=" navbar navbar-expand-lg navbar-light  ">
-            <div class="container fixed-top bg-white p-3">
+            <div class="container-fluid  fixed-top bg-white p-3">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
                 </a>
@@ -30,16 +30,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Product</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About US</a>
+                            <a class="nav-link" href="#Backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#Subscribe">Subscribe</a>
                         </li>
                     </ul>
 
@@ -49,7 +49,7 @@
 
         <!-- image slider Start-->
 
-        <section class="container  my-5 pt-5">
+        <section class="container  my-5 pt-5" id="Home">
             <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -198,7 +198,7 @@
 
         <!-- shoes start-->
 
-        <section class="container pt-5 pb-5">
+        <section class="container pt-5 pb-5" id="shoes">
             <h1>Shoes</h1>
 
             <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -261,7 +261,7 @@
         <!-- shoes End-->
 
         <!-- Backpack start-->
-        <section class="container pt-5 pb-5">
+        <section class="container pt-5 pb-5" id="Backpack">
             <h1>Backpack</h1>
 
             <div class="row row-cols-1  row-cols-md-3 g-4">
@@ -325,13 +325,41 @@
 
         </section>
 
+
         <!-- Backpack End-->
+
+
+
+        <!-- Subscribe Start-->
+
+        <section class="container d-flex justify-content-center align-items-center rounded-3 " id="Subscribe"
+            style="background-color:#FEEAE9; height: 250px;">
+            <div>
+                <h1>
+                    LET'S STAY IN TOUCH
+
+                </h1>
+                <p>Get updates on sales, specials and more
+                </p>
+                <input type="text " placeholder="your email">
+                <br>
+                <button class="btn btn-primary" type="submit">Submit</button>
+
+            </div>
+
+
+        </section>
+
+
+        <!-- Subscribe End-->
 
     </main>
 
 
 
-    <footer>
+    <footer class="mt-5 text-center">
+
+        <p>©2020. Panda Commerce. All rights reserved. Tariqul, Bangladesh.</p>
 
     </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
