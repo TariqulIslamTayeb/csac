@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+.background-color-slider{
+    background-color:#FEEAE9;"
+}
+.shopping-card {
+   transition: transform 0.3s ease-in-out;
+  }
+  .card-image {
+    transition: transform 0.3s ease-in-out;
+  }
+  .shopping-card:hover {
+    transform: translateY(-10px);
+  }
+  .shopping-card:hover .card-image {
+    transform: scale(1.1);
+  }
+  .buy-button{
+    width: 168px;
+    height: 52px;
+    background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+    color: white;
+  }
